@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+	    <link rel="stylesheet" type="text/css" href="style_s0fr.css">
+        <title>CRYPTO_login</title>
+        
+        
+        <p>
+            <nav>
+                <ul>
+                    <li class="deroulant"><a href="crypto….html">C.R.Y.P.T.O.</a>
+                    <ul class="sous">
+                        <li><a href="crypto….html">C.R.Y.P.T.O.</a></li>
+                        <li><a href="crypto….html">Menu</a></li>
+                        <li><a href="#">staff</a></li>
+                    </ul>
+                    </li>
+            
+            
+                    <li class="deroulant"><a href="crypto_cry.html">cryptologie</a>
+                    <ul class="sous">
+                        <li><a href="crypto_cry.html">portail de cryptologie</a></li>
+                        <li><a href="crypto_hist.html">histoire de la cryptologie</a></li>
+                        <li><a href="crypto_stegano.html">stéganographie</a></li>
+                        <li><a href="codeJS.html">interface de cryptage/décryptage avec une clé</a></li>
+                    </ul>
+                    </li>
+            
+                    <li><a href="login.html">connection</a>
+                    <ul class="sous">
+                        <li><a href="login.html">se connecter</a></li>
+                        <li><a href="login.html">s'inscrire</a></li>
+                    </ul>
+                    <li>
+                    <img id="divv" src="logo_crypto.png"alt="logo"/>
+                    </li>
+                    
+                        <p id="demo"></p>
+                    
+                </ul>
+                </nav>
+    
+        </p>
+        
+        
+    </head>
+    <body>
+
+
+
+
+        <br><br><br>
+        <div style="margin: 20px; font-size: large;">Se connecter/s'inscrire</div><br>
+        <div style=" margin: 15px"><textarea id="myTextarea"></textarea>
+        <textarea id="code"></textarea></div>
+
+
+
+    <button type="button" style="font-size: 20px; margin-left: 50px;" onclick="myFunction()">se connecter</button>
+
+
+
+    <script>
+    function myFunction() {
+    var x = document.getElementById("myTextarea").value;
+    var y =document.getElementById("code").value;
+    if (x=="colin") {
+        if (y=="code") {
+            alert("bienvenu")
+            document.getElementById("demo").innerHTML = "session de "+x;
+            
+        } else {
+            
+        }
+        alert("mdp/id error")
+    } else {
+        alert("mdp/id error")
+    }
+    
+    
+    }
+    </script>
+
+
+
+    </body>
+    
+</html>
